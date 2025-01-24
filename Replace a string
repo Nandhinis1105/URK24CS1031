@@ -1,0 +1,6 @@
+str=input("enter a string: ")
+print(str)
+for i in range(0, len(str)):  
+  if str[i] == 'a': 
+    str = str.replace('a', 'd')
+    print(str)
